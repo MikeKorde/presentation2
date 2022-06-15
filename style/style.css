@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonds/Roboto-Regular.ttf);
+}
+body{
+    font-family: 'Roboto';
+}
+.containernav{
+    background-color: #1F2937;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: #F9FAF8;
+    font-size:24px;
+    width: 300px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color:#8ba195;
+    font-size:30px;
+}
+.containermain p{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.containermain h1{
+    font-size: 48px;
+    color:#F9FAF8;
+}
+.containermain{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    font-size:48px;
+    font-weight:800;
+    color: #f9faf8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 200px;
+}
+.containermain button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity:0.9;
+    transition: 0.3s;
+} 
+.containermain button:hover{
+    opacity:1;
+}
+
+h1{
+    font-size: 36px;
+    color:#1F2937;
+    text-align: center;
+    text-shadow: 2px 2px #405e4d;
+}
+.guitar-info{
+    display:flex;
+    margin:300px;
+    margin-top:100px;
+    color:black;
+    text-align: center;
+}
+.img{
+    display:flex;
+    border-radius: 50px;
+    border: solid rgb(45, 112, 255);
+}
+.quote{
+    margin:200px;
+    background-color:#E7E5EB ;
+    font-size:36px;
+    color:#1F2937;
+    font-style: italic;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top:200px;
+    margin-left:400px;
+    margin-right:400px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #3882F6;
+    color:white;
+    text-align:left;
+    border-radius: 10px;
+}
+
+.footer1 button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+.footer{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 120px;
+}
+
+.footer-text{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
